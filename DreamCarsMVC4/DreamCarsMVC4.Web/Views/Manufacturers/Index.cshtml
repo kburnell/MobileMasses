@@ -1,0 +1,12 @@
+@model IEnumerable<DreamCarsMVC4.Models.Manufacturer>
+
+@{ViewBag.Title = "Makes";}
+<ul data-role="listview" data-filter="true">
+    @foreach (var item in Model) {
+        <li>
+            @Html.ActionLink(@item.Name, "Details", "Manufacturers", new { id = item.ManufacturerId }, null) <br/>
+        </li>
+    }
+</ul>
+
+

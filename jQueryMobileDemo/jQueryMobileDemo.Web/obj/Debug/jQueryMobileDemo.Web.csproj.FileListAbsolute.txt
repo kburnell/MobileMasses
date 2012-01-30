@@ -1,0 +1,17 @@
+D:\Dev\Presentations\MobileMasses\jQueryMobileDemo\jQueryMobileDemo.Web\bin\jQueryMobileDemo.Web.dll
+D:\Dev\Presentations\MobileMasses\jQueryMobileDemo\jQueryMobileDemo.Web\bin\jQueryMobileDemo.Web.pdb
+D:\Dev\Presentations\MobileMasses\jQueryMobileDemo\jQueryMobileDemo.Web\bin\EntityFramework.dll
+D:\Dev\Presentations\MobileMasses\jQueryMobileDemo\jQueryMobileDemo.Web\bin\jQuery.Mobile.MVC.dll
+D:\Dev\Presentations\MobileMasses\jQueryMobileDemo\jQueryMobileDemo.Web\bin\Microsoft.Web.Infrastructure.dll
+D:\Dev\Presentations\MobileMasses\jQueryMobileDemo\jQueryMobileDemo.Web\bin\Microsoft.Web.Optimization.dll
+D:\Dev\Presentations\MobileMasses\jQueryMobileDemo\jQueryMobileDemo.Web\bin\System.Web.Helpers.dll
+D:\Dev\Presentations\MobileMasses\jQueryMobileDemo\jQueryMobileDemo.Web\bin\System.Web.Mvc.dll
+D:\Dev\Presentations\MobileMasses\jQueryMobileDemo\jQueryMobileDemo.Web\bin\System.Web.Providers.dll
+D:\Dev\Presentations\MobileMasses\jQueryMobileDemo\jQueryMobileDemo.Web\bin\System.Web.Razor.dll
+D:\Dev\Presentations\MobileMasses\jQueryMobileDemo\jQueryMobileDemo.Web\bin\System.Web.WebPages.Deployment.dll
+D:\Dev\Presentations\MobileMasses\jQueryMobileDemo\jQueryMobileDemo.Web\bin\System.Web.WebPages.dll
+D:\Dev\Presentations\MobileMasses\jQueryMobileDemo\jQueryMobileDemo.Web\bin\System.Web.WebPages.Razor.dll
+D:\Dev\Presentations\MobileMasses\jQueryMobileDemo\jQueryMobileDemo.Web\bin\EntityFramework.xml
+D:\Dev\Presentations\MobileMasses\jQueryMobileDemo\jQueryMobileDemo.Web\obj\Debug\jQueryMobileDemo.Web.csprojResolveAssemblyReference.cache
+D:\Dev\Presentations\MobileMasses\jQueryMobileDemo\jQueryMobileDemo.Web\obj\Debug\jQueryMobileDemo.Web.dll
+D:\Dev\Presentations\MobileMasses\jQueryMobileDemo\jQueryMobileDemo.Web\obj\Debug\jQueryMobileDemo.Web.pdb

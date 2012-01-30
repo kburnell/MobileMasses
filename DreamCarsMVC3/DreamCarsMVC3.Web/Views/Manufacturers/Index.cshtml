@@ -1,0 +1,19 @@
+@model IEnumerable<DreamCarsMVC3.Models.Manufacturer>
+
+@{
+    ViewBag.Title = "Dream Cars MVC4";
+}
+
+<h2>Makes</h2>
+
+<ul>
+    @foreach (var item in Model) {
+        <li>
+            @Html.ActionLink(@item.Name, "Details", "Manufacturers", new { id = item.ManufacturerId }, null) <br/>
+        </li>
+    }
+</ul>
+
+
+
+

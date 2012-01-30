@@ -1,0 +1,5 @@
+D:\Dev\Presentations\MobileMasses\DreamCarsMVC3\DreamCarsMVC3.Models\bin\Debug\DreamCarsMVC3.Models.dll
+D:\Dev\Presentations\MobileMasses\DreamCarsMVC3\DreamCarsMVC3.Models\bin\Debug\DreamCarsMVC3.Models.pdb
+D:\Dev\Presentations\MobileMasses\DreamCarsMVC3\DreamCarsMVC3.Models\obj\Debug\DreamCarsMVC3.Models.csprojResolveAssemblyReference.cache
+D:\Dev\Presentations\MobileMasses\DreamCarsMVC3\DreamCarsMVC3.Models\obj\Debug\DreamCarsMVC3.Models.dll
+D:\Dev\Presentations\MobileMasses\DreamCarsMVC3\DreamCarsMVC3.Models\obj\Debug\DreamCarsMVC3.Models.pdb
