@@ -1,0 +1,62 @@
+
+
+*************  ViewPort Meta Tag (START)******************
+
+<meta name="viewport" content="width=device-width"/>
+
+*************  ViewPort Meta Tag END**********************
+
+
+
+*************  Display Modes (START)******************
+
+			DisplayModes.Modes.Insert(0, new DefaultDisplayMode("iPhone") {
+				ContextCondition = (context => context.Request.UserAgent.IndexOf
+					("iPhone", StringComparison.OrdinalIgnoreCase) >= 0)
+			});
+	
+		
+		*iPhone* (add after Html.ActionLink in site-title)
+
+*************  Display Modes (END)********************
+
+
+************* Fancy Up Models Index (START)***************		
+@model IEnumerable<DreamCarsMVC4.Models.Model>
+
+@{
+    ViewBag.Title = "Models";
+    string @lastManufacturer = string.Empty;
+}
+<ul data-role="listview" data-filter="true">
+    @foreach (var item in Model) {
+        if (item.Manufacturer.Name != lastManufacturer) {
+            lastManufacturer = item.Manufacturer.Name;
+            <li data-role="list-divider">@lastManufacturer</li>
+        }
+        <li>
+            @Html.ActionLink(string.Format("{0} {1}", @item.Year, @item.Name), "Details", "Models", new { id = item.ModelId }, null)
+        </li>
+    }
+</ul>
+************* Fancy Up Models Index (END)*******************	
+	
+
+************* Fancy Up Engines Index (START)***************		
+@model IEnumerable<DreamCarsMVC4.Models.Engine>
+@{
+    ViewBag.Title = "Engines";
+    string @lastManufacturer = string.Empty;
+}
+<ul data-role="listview" data-filter="true">
+    @foreach (var item in Model) {
+        if (item.AvailableOn[0].Manufacturer.Name != lastManufacturer) {
+            lastManufacturer = item.AvailableOn[0].Manufacturer.Name;
+            <li data-role="list-divider">@lastManufacturer</li>
+        }
+        <li>
+            @Html.ActionLink(@item.Name, "Details", "Engines", new { id = item.EngineId }, null)
+        </li>
+    }
+</ul>
+************* Fancy Up Egines Index (END)*******************	
