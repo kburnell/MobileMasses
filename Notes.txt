@@ -1,0 +1,123 @@
+Current State of MVC3 (Slide)
+	-  Spin up site
+	-  Navigate around a bit
+	-  Show site in WP7 Emulator (tiny)
+	-  Show site in Android Emulator (tiny)
+	-  Show site in iOS Emulator (a little better)
+	
+Vanilla MVC3 Issues (Slide)
+
+You Can Make Things Better (Slide)
+
+If you do nothing... (Slide)
+
+...at least add a viewport meta tag (slide)
+	-  Add viewport meta tag to _layout.chtml
+	-  Show site in WP7 emulator
+	-  Show site in Android emulator
+	-  Show site in iOS emulator (same)
+	
+There is a lot more you can do (Slide)
+
+But we don't have to ... (Slide)
+
+MVC4: Mobile Specific Features (Slide)
+	
+Mobile project template (Slide)
+	- File -> New Project
+	- MVC4
+	- Next
+	- Notice 2 new options "Empty" and "Mobile"
+	- Select Mobile
+	- Show site.Css is bare
+	- Show it includes jQuery Mobile (scripts and CSS)
+	- View on mobile emulators
+	- How cool is that!
+	- If only we created mobile only sites! :)
+
+Of course we don't create Mobile Only (JUST SAY)
+
+Spin up new MVC4 site
+	- talk a little about the new template
+	- Haack and the boys actually had a designer's input - looks Purdy
+	- columns
+	- Twitter/Facebook
+	- overall more pleasing to the eye, but who uses the default template anyway!?
+		
+Enhancements for adaptive rendering (Slide)
+	- show viewport tag in _Layout
+	- show mobile styles that use Media Queries (search @media)
+	- spin up site and make smaller to show adaptiveness
+	- spin up default site in mobile browsers
+
+Display Modes (Slide)
+	- Go through slide
+	- Show implementation of iPhone Display Mode
+	
+Dial it up to 11 (Slide)
+	
+jQuery.Mobile (Slide)
+	- **** Note on HTML5 markup-driven configuration
+				- Don't have to worry about a mobile browser not being up to par with the
+				rest for the HTML 5 features...based on universally adopted standards.
+	- Talk a bit about progressive enhancements and graceful degradation
+	- Accessibility features, very important now mobile devices are the norm!
+	- Install in default project (package-install jquery.mobile)
+	- Note what it installed
+		- images
+		- couple of css files
+		- scripts
+	- Run it
+		- No change on desktop
+		- No change on Mobile either
+	- Not Hooked Up because Nuget package just dumps the files.
+	- So I could manually hook up everything or I could use jQuery.Mobile.MVC
+	
+jQuery.Mobile.MVC
+	- install via NuGet
+	- *** Make sure version of jQuery and jQuery mobile in _layout.mobile match installed versions
+	- Show the new items
+		* views/shared/_Layout.mobile.cshtml
+		* views/shared/_ViewSwitcher.cshtml
+		* controllers/ViewSwitcherController.cs
+	- Run it
+		* Desktop no-change
+		* Mobile emulators
+			- view switcher
+			- color
+			- images are now displayed
+			- navigate to Account/LogOn (show log on screen)
+			
+jQ Mobile: data- attribute
+	- read slide
+	- Show jQ Mobile demo buttons
+	- look at data- attribute implementation
+			
+jQuery Mobile: Page Anatomy
+	- Show doctype declaration in _layout and _layout.Mobile (html5 is the default in MVC4)
+	- Show _layout.mobile for data-role elements
+			
+Coding Time
+	- Bring up Dream Cars MVC4
+	- Note it is a copy of the MVC3 app as a basic MVC4 app with jQuery.mobile.mvc installed
+	- Manufacturers/Models/Engines Index
+		- UL
+			- data-role="listview"
+			- data-filter="true"
+			
+	** That looks pretty good now, but let's fancy up Model and Engine
+			Fancy Up Models/Engines Index from clipboard.txt
+			
+	- Models and Engines Details
+		remove h3 table div (on top of UL)
+		set colspan = td
+		add data-role and data-inset to UL
+		add a <li data-role="list-divider"><h3>Engines</h3></li>
+		
+			
+	
+			
+		
+		
+
+
