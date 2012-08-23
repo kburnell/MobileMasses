@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+      <Title>mm2</Title>
+      <Author>Skyline</Author>
+      <Description>
+      </Description>
+      <HelpUrl>
+      </HelpUrl>
+      <Shortcut>
+        mm2
+      </Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="csharp"><![CDATA[ DisplayModeProvider.Instance.Modes.Insert(0, new DefaultDisplayMode("iphone") {
+                ContextCondition = (context => context.GetOverriddenUserAgent().IndexOf
+                ("iphone", StringComparison.OrdinalIgnoreCase) >= 0)
+            });]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

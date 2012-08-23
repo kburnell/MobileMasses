@@ -1,8 +1,0 @@
-D:\Dev\Presentations\MobileMasses\DreamCarsMVC3\DreamCarsMVC3.Data\bin\Debug\DreamCarsMVC3.Data.dll.config
-D:\Dev\Presentations\MobileMasses\DreamCarsMVC3\DreamCarsMVC3.Data\bin\Debug\DreamCarsMVC3.Data.dll
-D:\Dev\Presentations\MobileMasses\DreamCarsMVC3\DreamCarsMVC3.Data\bin\Debug\DreamCarsMVC3.Data.pdb
-D:\Dev\Presentations\MobileMasses\DreamCarsMVC3\DreamCarsMVC3.Data\bin\Debug\DreamCarsMVC3.Models.dll
-D:\Dev\Presentations\MobileMasses\DreamCarsMVC3\DreamCarsMVC3.Data\bin\Debug\DreamCarsMVC3.Models.pdb
-D:\Dev\Presentations\MobileMasses\DreamCarsMVC3\DreamCarsMVC3.Data\obj\Debug\DreamCarsMVC3.Data.csprojResolveAssemblyReference.cache
-D:\Dev\Presentations\MobileMasses\DreamCarsMVC3\DreamCarsMVC3.Data\obj\Debug\DreamCarsMVC3.Data.dll
-D:\Dev\Presentations\MobileMasses\DreamCarsMVC3\DreamCarsMVC3.Data\obj\Debug\DreamCarsMVC3.Data.pdb

@@ -1,0 +1,30 @@
+@model DreamCarsMVC4.Models.Manufacturer
+
+@{
+    ViewBag.Title = @Model.Name;
+}
+
+<table width="100%">
+    <tr>
+        <td colspan="2" style="text-align: center;"><img width="100" class="image" src="http://localhost:1347/Content/images/Manufacturers/@Model.Image" alt="@Model.Name" /></td>
+    </tr>
+    <tr><td colspan="2"> &nbsp;</td></tr>
+    <tr>
+        <td><h3>Country:&nbsp;&nbsp;</h3></td>
+        <td><h3>@Model.Country</h3></td>
+    </tr>
+    <tr>
+        <td colspan="2">
+            <ul data-role="listview" data-inset="true">
+                <li data-role="list-divider">
+                    <h3 style="text-align: center;">Models</h3>
+                </li>
+                @foreach (var item in @Model.Models) {
+                    <li>@Html.ActionLink(item.Name, "Details", "Models", new { id = item.ModelId }, null)</li>
+                }
+            </ul>
+        </td>
+    </tr>
+</table>
+
+

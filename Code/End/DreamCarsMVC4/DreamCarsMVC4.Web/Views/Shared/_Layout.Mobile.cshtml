@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html> 
+<html> 
+    <head> 
+        <meta charset="utf-8" />
+        <title>@ViewBag.Title</title> 
+        <meta name="viewport" content="width=device-width" />
+        <link rel="stylesheet" href="@Url.Content("~/Content/jquery.mobile-1.0b3.min.css")" />
+        <link rel="stylesheet" href="@Url.Content("~/Content/Site.Mobile.css")" />
+        <script type="text/javascript" src="@Url.Content("~/Scripts/jquery-1.6.2.min.js")"></script>
+        <script type="text/javascript" src="@Url.Content("~/Scripts/jquery.mobile-1.0b3.min.js")"></script>
+    </head> 
+    <body> 
+        <div data-role="page" data-theme="a">
+            @Html.Partial("_ViewSwitcher")
+            <div data-role="header" align="center">
+                @Html.ActionLink("Home", "Index", "Home")
+                @Html.ActionLink("Engine", "Index", "Engines")
+                @Html.ActionLink("Make", "Index", "Manufacturers")
+                @Html.ActionLink("Model", "Index", "Models")
+            </div>
+            <div data-role="header">
+                <h1>@ViewBag.Title</h1>
+            </div>
+            <div data-role="content">
+                @RenderSection("featured", false)
+                @RenderBody()		
+            </div>
+        </div>
+    </body>
+</html>

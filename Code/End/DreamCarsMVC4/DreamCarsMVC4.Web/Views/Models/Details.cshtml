@@ -1,0 +1,31 @@
+@model DreamCarsMVC4.Models.Model
+
+@{
+    ViewBag.Title = MvcHtmlString.Create(string.Format("{0} {1} <br/> {2}", @Model.Year, @Model.Manufacturer.Name, @Model.Name));
+}
+
+<table>
+    <tr>
+        <td colspan="2" style="text-align: center;"><img width="240" class="image" src="http://localhost:1347/Content/images/Models/@Model.Image" alt="Loading..." /></td>
+    </tr>
+    <tr>
+        <td><h3>Base Price:</h3></td>
+        <td><h3>@String.Format("{0:C}", Model.BasePrice)</h3></td>
+    </tr>
+    <tr>
+        <td><h3>Engine Location:&nbsp;&nbsp; </h3></td>
+        <td><h3>@Model.EngineLocation</h3></td>
+    </tr>
+    <tr>
+        <td colspan="2">
+            <ul data-role="listview" data-inset="true">
+                <li data-role="list-divider">
+                    <h3 style="text-align: center;">Models</h3>
+                </li>
+                @foreach (var item in @Model.AvailableEngines) {
+                    <li>@Html.ActionLink(item.Name, "Details", "Engines", new { id = item.EngineId }, null)</li>
+                }
+            </ul>
+        </td>
+    </tr>
+</table>
