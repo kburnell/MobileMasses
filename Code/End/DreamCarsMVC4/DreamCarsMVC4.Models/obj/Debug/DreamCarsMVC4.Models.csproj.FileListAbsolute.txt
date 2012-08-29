@@ -8,3 +8,8 @@ D:\Dev\Presentations\MVC\MobileMasses\Code\Begin\DreamCarsMVC4\DreamCarsMVC4.Mod
 D:\Dev\Presentations\MVC\MobileMasses\Code\Begin\DreamCarsMVC4\DreamCarsMVC4.Models\obj\Debug\DreamCarsMVC4.Models.csprojResolveAssemblyReference.cache
 D:\Dev\Presentations\MVC\MobileMasses\Code\Begin\DreamCarsMVC4\DreamCarsMVC4.Models\obj\Debug\DreamCarsMVC4.Models.dll
 D:\Dev\Presentations\MVC\MobileMasses\Code\Begin\DreamCarsMVC4\DreamCarsMVC4.Models\obj\Debug\DreamCarsMVC4.Models.pdb
+D:\Dev\Presentations\MVC\MobileMasses\Code\End\DreamCarsMVC4\DreamCarsMVC4.Models\bin\Debug\DreamCarsMVC4.Models.dll
+D:\Dev\Presentations\MVC\MobileMasses\Code\End\DreamCarsMVC4\DreamCarsMVC4.Models\bin\Debug\DreamCarsMVC4.Models.pdb
+D:\Dev\Presentations\MVC\MobileMasses\Code\End\DreamCarsMVC4\DreamCarsMVC4.Models\obj\Debug\DreamCarsMVC4.Models.csprojResolveAssemblyReference.cache
+D:\Dev\Presentations\MVC\MobileMasses\Code\End\DreamCarsMVC4\DreamCarsMVC4.Models\obj\Debug\DreamCarsMVC4.Models.dll
+D:\Dev\Presentations\MVC\MobileMasses\Code\End\DreamCarsMVC4\DreamCarsMVC4.Models\obj\Debug\DreamCarsMVC4.Models.pdb
