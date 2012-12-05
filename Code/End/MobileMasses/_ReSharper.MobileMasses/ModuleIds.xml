@@ -1,0 +1,6 @@
+<Modules>
+  <Module PersistentId="9C83B3B3-E059-490B-A81D-867D8584069D" ModuleId="1CurrentStateWithMVC3" />
+  <Module PersistentId="095C1BB9-FD72-4ECF-AFC5-4A5B03FA265E" ModuleId="2MobileProjectTemplate" />
+  <Module PersistentId="C2B128D3-F552-47A9-8EA5-E11C9C197C69" ModuleId="3MVC4" />
+  <Module PersistentId="AA37D52C-0794-4174-9152-9EBCF3E1F680" ModuleId="4jQueryMobile" />
+</Modules>
