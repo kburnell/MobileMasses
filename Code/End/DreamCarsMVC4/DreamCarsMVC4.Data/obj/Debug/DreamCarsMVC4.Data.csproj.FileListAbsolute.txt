@@ -28,3 +28,13 @@ D:\Dev\Presentations\MVC\MobileMasses\Code\End\DreamCarsMVC4\DreamCarsMVC4.Data\
 D:\Dev\Presentations\MVC\MobileMasses\Code\End\DreamCarsMVC4\DreamCarsMVC4.Data\obj\Debug\DreamCarsMVC4.Data.csprojResolveAssemblyReference.cache
 D:\Dev\Presentations\MVC\MobileMasses\Code\End\DreamCarsMVC4\DreamCarsMVC4.Data\obj\Debug\DreamCarsMVC4.Data.dll
 D:\Dev\Presentations\MVC\MobileMasses\Code\End\DreamCarsMVC4\DreamCarsMVC4.Data\obj\Debug\DreamCarsMVC4.Data.pdb
+C:\Dev\Presentations\MVC\MobileMasses\Code\End\DreamCarsMVC4\DreamCarsMVC4.Data\bin\Debug\DreamCarsMVC4.Data.dll.config
+C:\Dev\Presentations\MVC\MobileMasses\Code\End\DreamCarsMVC4\DreamCarsMVC4.Data\bin\Debug\DreamCarsMVC4.Data.dll
+C:\Dev\Presentations\MVC\MobileMasses\Code\End\DreamCarsMVC4\DreamCarsMVC4.Data\bin\Debug\DreamCarsMVC4.Data.pdb
+C:\Dev\Presentations\MVC\MobileMasses\Code\End\DreamCarsMVC4\DreamCarsMVC4.Data\bin\Debug\DreamCarsMVC4.Models.dll
+C:\Dev\Presentations\MVC\MobileMasses\Code\End\DreamCarsMVC4\DreamCarsMVC4.Data\bin\Debug\EntityFramework.dll
+C:\Dev\Presentations\MVC\MobileMasses\Code\End\DreamCarsMVC4\DreamCarsMVC4.Data\bin\Debug\DreamCarsMVC4.Models.pdb
+C:\Dev\Presentations\MVC\MobileMasses\Code\End\DreamCarsMVC4\DreamCarsMVC4.Data\bin\Debug\EntityFramework.xml
+C:\Dev\Presentations\MVC\MobileMasses\Code\End\DreamCarsMVC4\DreamCarsMVC4.Data\obj\Debug\DreamCarsMVC4.Data.csprojResolveAssemblyReference.cache
+C:\Dev\Presentations\MVC\MobileMasses\Code\End\DreamCarsMVC4\DreamCarsMVC4.Data\obj\Debug\DreamCarsMVC4.Data.dll
+C:\Dev\Presentations\MVC\MobileMasses\Code\End\DreamCarsMVC4\DreamCarsMVC4.Data\obj\Debug\DreamCarsMVC4.Data.pdb

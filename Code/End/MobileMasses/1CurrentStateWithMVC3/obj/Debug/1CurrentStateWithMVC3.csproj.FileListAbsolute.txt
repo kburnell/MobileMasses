@@ -12,3 +12,10 @@ D:\Dev\Presentations\MVC\MobileMasses\Code\End\MobileMasses\1CurrentStateWithMVC
 D:\Dev\Presentations\MVC\MobileMasses\Code\End\MobileMasses\1CurrentStateWithMVC3\obj\Debug\1CurrentStateWithMVC3.csprojResolveAssemblyReference.cache
 D:\Dev\Presentations\MVC\MobileMasses\Code\End\MobileMasses\1CurrentStateWithMVC3\obj\Debug\1CurrentStateWithMVC3.dll
 D:\Dev\Presentations\MVC\MobileMasses\Code\End\MobileMasses\1CurrentStateWithMVC3\obj\Debug\1CurrentStateWithMVC3.pdb
+C:\Dev\Presentations\MVC\MobileMasses\Code\End\MobileMasses\1CurrentStateWithMVC3\bin\1CurrentStateWithMVC3.dll
+C:\Dev\Presentations\MVC\MobileMasses\Code\End\MobileMasses\1CurrentStateWithMVC3\bin\1CurrentStateWithMVC3.pdb
+C:\Dev\Presentations\MVC\MobileMasses\Code\End\MobileMasses\1CurrentStateWithMVC3\bin\EntityFramework.dll
+C:\Dev\Presentations\MVC\MobileMasses\Code\End\MobileMasses\1CurrentStateWithMVC3\bin\EntityFramework.xml
+C:\Dev\Presentations\MVC\MobileMasses\Code\End\MobileMasses\1CurrentStateWithMVC3\obj\Debug\1CurrentStateWithMVC3.csprojResolveAssemblyReference.cache
+C:\Dev\Presentations\MVC\MobileMasses\Code\End\MobileMasses\1CurrentStateWithMVC3\obj\Debug\1CurrentStateWithMVC3.dll
+C:\Dev\Presentations\MVC\MobileMasses\Code\End\MobileMasses\1CurrentStateWithMVC3\obj\Debug\1CurrentStateWithMVC3.pdb
